@@ -3,9 +3,9 @@
 
 ### Build
 To build the script run the following commands in the repo root
-´´´bash
+```bash
 $ cargo build
-´´´
+```
 
 ### Install
 To install run the following
