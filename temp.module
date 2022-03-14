@@ -1,0 +1,6 @@
+[module/lulea]
+type = custom/script
+interval = 30
+exec = temp
+format-background = #09f7a0
+format-padding = 1
