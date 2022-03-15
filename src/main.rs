@@ -9,7 +9,7 @@ async fn main() {
 
     //println!("test: {}", body);
 
-    let re = Regex::new("('+'|-)[0-99]+,[0-99]").unwrap();
+    let re = Regex::new("(-)*[0-99]+,[0-99]").unwrap();
 
     let cap = re.captures(body.as_str());
     match cap {
